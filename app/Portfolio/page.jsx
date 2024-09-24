@@ -1,11 +1,11 @@
 import "./Portfolio.css";
-import PersonalInfo from "./Personalinfo";
-import Education from "./Education";
-import Skills from "./Skills";
-import Experience from "./Experience";
-import Courses from "./Courses";
-import Conferences from "./Conferences";
-import Research from "./Research";
+import PersonalInfo from "./componets_portfolio/Personalinfo";
+import Education from "./componets_portfolio/Education";
+import Skills from "./componets_portfolio/Skills";
+import Experience from "./componets_portfolio/Experience";
+import Courses from "./componets_portfolio/Courses";
+import Conferences from "./componets_portfolio/Conferences";
+import Research from "./componets_portfolio/Research";
 import Link from "next/link";
 
 const Portfolio = () => {
