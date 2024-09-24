@@ -45,7 +45,7 @@ function PersonalInfo() {
             rel="noopener noreferrer"
             aria-label="Enviar mensaje por WhatsApp"
           >
-            +54 (3755) 687686
+            +54 (3755) 68-7686
           </a>
         </li>
         <li>
