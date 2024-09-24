@@ -1,7 +1,6 @@
 import Link from "next/link";
-import React from "react";
 
-const PersonalInfo = () => {
+function PersonalInfo() {
   const calculateAge = (birthDate) => {
     const today = new Date();
     const birth = new Date(birthDate);
@@ -65,6 +64,6 @@ const PersonalInfo = () => {
       </ul>
     </section>
   );
-};
+}
 
 export default PersonalInfo;
