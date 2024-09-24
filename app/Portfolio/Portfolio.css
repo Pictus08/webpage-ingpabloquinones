@@ -1,56 +1,38 @@
 /* Reset básico para evitar inconsistencias entre navegadores */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  @apply m-0 p-0 box-border;
 }
 
+/* Estilos generales */
 body {
-  font-family: "Roboto", sans-serif;
-  background-color: #f0f2f5;
-  color: #333;
-  line-height: 1.6;
+  @apply font-sans bg-gray-900 text-gray-100 leading-normal;
 }
 
 /* Contenedor general del portafolio */
 .portfolio-container {
-  max-width: 900px;
-  margin: 50px auto;
-  background-color: #ffffff;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  @apply max-w-3xl mx-auto bg-gray-800 p-8 rounded-lg shadow-lg my-12;
 }
 
 /* Estilo del encabezado */
 .header {
-  text-align: center;
-  margin-bottom: 30px;
+  @apply text-center mb-8;
 }
 
 .header h1 {
-  font-size: 2.5rem;
-  color: #2c3e50;
-  margin-bottom: 10px;
+  @apply text-4xl text-gray-100 mb-2;
 }
 
 .header p {
-  font-size: 1.2rem;
-  color: #16a085;
+  @apply text-xl text-teal-400;
 }
 
 /* Sección general */
 section {
-  margin-bottom: 40px;
+  @apply mb-10;
 }
 
 h2 {
-  font-size: 1.5rem;
-  color: #34495e;
-  border-bottom: 2px solid #16a085;
-  display: inline-block;
-  padding-bottom: 5px;
-  margin-bottom: 20px;
+  @apply text-2xl text-gray-100 border-b-2 border-teal-400 inline-block pb-1 mb-5;
 }
 
 /* Listas de datos personales */
@@ -58,92 +40,75 @@ h2 {
 .skills ul,
 .courses ul,
 .conferences ul {
-  list-style-type: none;
-  padding-left: 20px;
+  @apply list-none pl-5;
 }
 
 .personal-info ul li,
 .skills ul li,
 .courses ul li,
 .conferences ul li {
-  margin-bottom: 10px;
-  font-size: 1.1rem;
+  @apply mb-2 text-lg;
 }
 
 ul li strong {
-  color: #16a085;
+  @apply text-teal-400;
 }
 
 /* Sección de experiencia laboral */
 .experience h3 {
-  font-size: 1.2rem;
-  color: #2c3e50;
-  margin-bottom: 10px;
+  @apply text-xl text-gray-100 mb-2;
 }
 
 .experience p {
-  margin-bottom: 15px;
-  line-height: 1.6;
+  @apply mb-4 leading-relaxed;
 }
 
 /* Footer */
 footer {
-  text-align: center;
-  padding-top: 20px;
-  border-top: 1px solid #ddd;
-  margin-top: 40px;
+  @apply text-center pt-5 border-t border-gray-700 mt-10;
 }
 
 footer p {
-  font-size: 0.9rem;
-  color: #777;
+  @apply text-sm text-gray-500;
 }
 
 /* Mejora de los enlaces */
 a {
-  text-decoration: none;
-  color: #16a085;
+  @apply text-teal-400 no-underline;
 }
 
 a:hover {
-  text-decoration: underline;
+  @apply underline;
 }
 
 /* Botones (por si decides agregar alguno en el futuro) */
 button {
-  background-color: #16a085;
-  color: #ffffff;
-  border: none;
-  padding: 10px 20px;
-  font-size: 1rem;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  @apply bg-teal-400 text-white border-none py-2 px-4 text-base rounded-md cursor-pointer transition duration-300 ease-in-out;
 }
 
 button:hover {
-  background-color: #1abc9c;
+  @apply bg-teal-500;
 }
 
 /* Responsive para pantallas más pequeñas */
 @media (max-width: 768px) {
   .portfolio-container {
-    padding: 20px;
+    @apply p-5;
   }
 
   .header h1 {
-    font-size: 2rem;
+    @apply text-3xl;
   }
 
   .header p {
-    font-size: 1rem;
+    @apply text-lg;
   }
 
   h2 {
-    font-size: 1.3rem;
+    @apply text-xl;
   }
 
   ul li {
-    font-size: 1rem;
+    @apply text-base;
   }
 }
