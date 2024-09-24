@@ -6,13 +6,14 @@ const Research = () => {
         Estudio del{" "}
         <strong className="text-teal-400">
           “Estado fresco de morteros autocompactantes con arena de trituración
-          basáltica”
+          basáltica” - Analisis de imagenes para la caracterización de agregados
+          basalticos
         </strong>
-        <p>
+        <span className="text-gray-400">
+          {" "}
           Trabajo a cargo del Ing. Daniel Pizzuti, Facultad de Ingeniería,
-          Oberá, Misiones.
-          <span className="text-gray-400"> (2015-2018)</span>
-        </p>
+          Oberá, Misiones. (2015-2018)
+        </span>
       </p>
     </section>
   );

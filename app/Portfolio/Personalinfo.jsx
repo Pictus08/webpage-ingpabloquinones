@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const PersonalInfo = () => {
@@ -40,10 +41,26 @@ const PersonalInfo = () => {
           <strong>Estado Civil:</strong> Soltero
         </li>
         <li>
-          <strong>Teléfono:</strong> +54 (3755) 68 7686
+          <strong>Teléfono:</strong>{" "}
+          <Link
+            href="https://wa.me/5493755687686"
+            className="no-underline text-inherit"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            +54 (3755) 68 7686
+          </Link>
         </li>
         <li>
-          <strong>Email:</strong> ingpabloquinones@gmail.com
+          <strong>Email:</strong>{" "}
+          <Link
+            href="mailto:ingpabloquinones@gmail.com"
+            className="no-underline text-inherit"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ingpabloquinones@gmail.com
+          </Link>
         </li>
       </ul>
     </section>
