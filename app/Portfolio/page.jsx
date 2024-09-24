@@ -13,11 +13,25 @@ const Portfolio = () => {
 
   return (
     <div className="portfolio-container">
-      <header className="header">
-        <Link href={"/"}>
-          <h1>Pablo Quiñones</h1>
-        </Link>
-        <p>Ingeniero Civil</p>
+      <header className=" py-6">
+        <div className="container mx-auto flex flex-col items-center">
+          <nav className="mt-0 mb-4 flex space-x-4">
+            <Link
+              href="/"
+              className="hover:text-blue-600 transition duration-300"
+            >
+              Inicio
+            </Link>
+            <Link
+              href="/Contacto"
+              className="hover:text-blue-600 transition duration-300"
+            >
+              Contacto
+            </Link>
+          </nav>
+          <h1 className="text-3xl font-bold">Pablo Luis Quiñones</h1>
+          <p className="mt-2 text-xl text-gray-600">Ingeniero Civil</p>{" "}
+        </div>
       </header>
 
       <PersonalInfo />
@@ -28,9 +42,32 @@ const Portfolio = () => {
       <Conferences />
       <Research />
 
-      <footer>
-        <p>© {currentYear} Pablo Quiñones - Ingeniero Civil</p>{" "}
-        {/* Año dinámico */}
+      <footer className="bg-gray-800 text-white py-4 mt-8">
+        <div className="container mx-auto flex flex-col items-center">
+          <p className="mb-2">
+            © {currentYear} Pablo Quiñones - Ingeniero Civil
+          </p>
+          <div className="flex space-x-4">
+            <Link
+              href="/Portfolio"
+              className="text-gray-300 hover:text-white transition duration-300"
+            >
+              Volver
+            </Link>
+            <Link
+              href="/Contacto"
+              className="text-gray-300 hover:text-white transition duration-300"
+            >
+              Contacto
+            </Link>
+            <Link
+              href="/"
+              className="text-gray-300 hover:text-white transition duration-300"
+            >
+              Inicio
+            </Link>
+          </div>
+        </div>
       </footer>
     </div>
   );

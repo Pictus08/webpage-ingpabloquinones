@@ -24,6 +24,7 @@ const Skills = () => {
         <li>Rhinoceros + Grasshopper</li>
         <li>SAP 2000</li>
         <li>Robot Structural</li>
+        <li>CYPE</li>
         <li>EPANET</li>
         <li>SWMM</li>
         <li>HEC-RAS</li>
