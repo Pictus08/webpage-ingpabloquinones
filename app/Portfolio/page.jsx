@@ -1,5 +1,5 @@
 import "./Portfolio.css";
-import PersonalInfo from "./PersonalInfo";
+import PersonalInfo from "./Personalinfo";
 import Education from "./Education";
 import Skills from "./Skills";
 import Experience from "./Experience";
