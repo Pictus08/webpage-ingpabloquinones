@@ -1,3 +1,5 @@
+import { FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa"; // Asegúrate de instalar react-icons si no lo tienes.
+
 const HomePage = () => {
   return (
     <div className="min-h-screen flex flex-col bg-gray-900 text-white font-sans relative">
@@ -27,8 +29,28 @@ const HomePage = () => {
         <img
           src="/web.svg"
           alt="SVG background"
-          className="w-full h-auto max-h-[120vh] sm:max-h-[100vh] aspect-[4/3] sm:aspect-[4/3] md:aspect-[21/9] lg:aspect-[3/1] xl:aspect-[2/1] object-cover opacity-100 filter invert"
+          className="w-full h-auto max-h-[80vh] sm:max-h-[90vh] aspect-[4/3] object-cover opacity-100 filter invert"
         />
+      </div>
+
+      {/* Botones de redes sociales */}
+      <div className="absolute bottom-4 right-4 flex space-x-4">
+        <a
+          href="https://www.linkedin.com/in/ingpabloquinones/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-teal-400 hover:text-teal-500"
+        >
+          <FaLinkedin size={28} /> {/* Aumentar tamaño de ícono */}
+        </a>
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-teal-400 hover:text-teal-500"
+        >
+          <FaInstagram size={28} /> {/* Aumentar tamaño de ícono */}
+        </a>
       </div>
     </div>
   );
