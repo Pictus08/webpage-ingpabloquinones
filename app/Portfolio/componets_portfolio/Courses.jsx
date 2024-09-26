@@ -58,7 +58,7 @@ const Courses = () => {
             Diseño de aplicaciones y programación web
           </h3>
           <h3 class="text-lg font-semibold mt-2">Tecnologías aprendidas:</h3>
-          <ul class="text-teal-400 flex space-x-4 list-none pl-0 mt-2 font-bold">
+          <ul class="text-teal-400 flex flex-wrap space-x-4 list-none pl-0 mb-2 mt-2 font-bold">
             <li>Git</li>
             <li>JavaScript</li>
             <li>React</li>

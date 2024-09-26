@@ -49,22 +49,16 @@ const Portfolio = () => {
           </p>
           <div className="flex space-x-4">
             <Link
-              href="/Portfolio"
+              href="/"
               className="text-gray-300 hover:text-white transition duration-300"
             >
-              Volver
+              Inicio
             </Link>
             <Link
               href="/Contacto"
               className="text-gray-300 hover:text-white transition duration-300"
             >
               Contacto
-            </Link>
-            <Link
-              href="/"
-              className="text-gray-300 hover:text-white transition duration-300"
-            >
-              Inicio
             </Link>
           </div>
         </div>
