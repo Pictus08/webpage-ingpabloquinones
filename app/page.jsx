@@ -1,14 +1,16 @@
-import React from "react";
+import Image from "next/image";
 
 const HomePage = () => {
   return (
-    <div className="min-h-screen bg-black text-white flex flex-col font-sans relative">
+    <div className="min-h-screen bg-black opacity-90 text-white flex flex-col font-sans relative">
       {/* SVG como fondo */}
       <div className="absolute inset-0 flex items-center justify-center">
-        <img
+        <Image
           src="/web.svg"
           alt="SVG background"
-          className="w-full h-full object-cover opacity-100 filter invert drop-shadow-lg"
+          layout="fill"
+          objectFit="contain"
+          className="opacity-100 filter invert"
         />
       </div>
 

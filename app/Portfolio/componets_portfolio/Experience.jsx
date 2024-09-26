@@ -78,11 +78,12 @@ const Experience = () => {
         <ul className=" text-justify">
           <li className="pt-2">
             <strong>Resolución del sistema pluvial y trazado de calles</strong>{" "}
-            en la urbanización "Itaembé Porá", Grupo Piñhero.
+            en la urbanización &quot;Itaembé Porá&quot;, Grupo Piñhero.
           </li>
           <li className="pt-2">
             <strong>Resolución del sistema pluvial y trazado de calles</strong>{" "}
-            en la urbanización "Los Naranjos Country", Ciudad de Posadas.
+            en la urbanización &quot;Los Naranjos Country&quot;, Ciudad de
+            Posadas.
           </li>
           <li className="pt-2">
             <strong>Canalización de A° Urbano</strong>Canalización de A° Urbano
