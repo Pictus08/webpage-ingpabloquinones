@@ -1,7 +1,9 @@
 const Experience = () => {
   return (
     <section className="experience pt-5 mb-6">
-      <h2 className="text-3xl font-bold mb-6">Experiencia Laboral</h2>
+      <h2 className="text-3xl font-bold mb-6">
+        Trayectoria laboral en distintos sectores
+      </h2>
 
       {/* Cantera San Miguel */}
       <div className="mb-6">
@@ -45,6 +47,63 @@ const Experience = () => {
             (Diciembre 2020 - Enero 2023)
           </span>
         </p>
+      </div>
+
+      <h2 className="text-3xl font-bold mb-6">
+        Proyectos personales y colaboraciones
+      </h2>
+
+      {/* Municipalidad de Posadas */}
+      <div>
+        <h3 className="text-xl text-center font-semibold text-teal-400 mb-2">
+          <strong>- Municipalidad de Posadas -</strong>
+        </h3>
+        <ul className="text-justify">
+          <li className="pt-2">
+            <strong>Diseño hidráulico de la canalización del A° Sití</strong> y
+            las redes pluviales correspondientes a su cuenca.
+          </li>
+          <li className="pt-2">
+            <strong>Diseño hidráulico pluvial, con trazado de calles</strong>{" "}
+            para el Barrio de Los Paraísos.
+          </li>
+        </ul>
+      </div>
+
+      {/* Proyectos Personales */}
+      <div>
+        <h3 className="pt-5 text-xl text-center font-semibold text-teal-400 mb-2">
+          <strong>- Proyectos Personales- </strong>
+        </h3>
+        <ul className=" text-justify">
+          <li className="pt-2">
+            <strong>Resolución del sistema pluvial y trazado de calles</strong>{" "}
+            en la urbanización "Itaembé Porá", Grupo Piñhero.
+          </li>
+          <li className="pt-2">
+            <strong>Resolución del sistema pluvial y trazado de calles</strong>{" "}
+            en la urbanización "Los Naranjos Country", Ciudad de Posadas.
+          </li>
+          <li className="pt-2">
+            <strong>Canalización de A° Urbano</strong>Canalización de A° Urbano
+            para terreno privado en Oberá, Misiones, entre calle Brasil y Av.
+            Libertad.
+          </li>
+          <li className="pt-2">
+            <strong>Canalización de A° Urbano para terreno privado</strong>
+            Canalización de A° Urbano para terreno privado en Posadas, Itambé
+            Miní, parte del A° Mártires Chico en terreno privado.
+          </li>
+          <li className="pt-2">
+            <strong>Verificación de sección Hidráulica de A°</strong>
+            Verificación de sección Hidráulica de A° Urbano para terreno privado
+            en Posadas, parte del A° Sarmiento en terreno privado.
+          </li>
+          <li className="pt-2">
+            <strong>Calculo estructural, estructura metálica.</strong> Estacion
+            de Servicio. Capioví Misiones.
+          </li>
+        </ul>
       </div>
     </section>
   );
