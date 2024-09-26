@@ -3,11 +3,6 @@
   @apply m-0 p-0 box-border;
 }
 
-/* Estilos generales */
-body {
-  @apply font-sans bg-gray-900 text-gray-100 leading-normal;
-}
-
 /* Contenedor general del portafolio */
 .portfolio-container {
   @apply max-w-3xl mx-auto bg-gray-800 p-8 rounded-lg shadow-lg my-12;

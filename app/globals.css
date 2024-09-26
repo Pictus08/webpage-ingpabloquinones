@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Estilos generales */
+body {
+  @apply font-sans bg-gray-900 text-gray-100 leading-normal;
+}
+
 .no-style-link {
   text-decoration: none;
   color: inherit;
