@@ -49,9 +49,7 @@ const Experience = () => {
         </p>
       </div>
 
-      <h2 className="text-3xl font-bold mb-6">
-        Proyectos personales y colaboraciones
-      </h2>
+      <h2 className="text-3xl font-bold mb-6">Proyectos y Colaboraciones</h2>
 
       {/* Municipalidad de Posadas */}
       <div>
