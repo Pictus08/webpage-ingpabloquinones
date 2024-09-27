@@ -24,13 +24,13 @@ const HomePage = () => {
         </ul>
       </nav>
 
-      {/* SVG como fondo */}
-      <div className="flex flex-1 items-center justify-center overflow-hidden">
+      <div className="relative flex flex-1 items-center justify-center overflow-hidden">
         <img
           src="/web.svg"
           alt="SVG background"
           className="w-full h-auto max-h-[80vh] sm:max-h-[90vh] aspect-[4/3] object-cover opacity-100 filter invert"
         />
+        <div className="absolute inset-0 cursor-default"></div>
       </div>
 
       {/* Botones de redes sociales */}
